@@ -1,0 +1,24 @@
+html {
+  font-size: 62.5%;
+}
+
+// This is a place to hold base styles
+body {
+  background: $dark-blue;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $m-size;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 10%;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+link {
+  cursor: pointer;
+}
+
